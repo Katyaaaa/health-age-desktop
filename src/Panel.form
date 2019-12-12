@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Panel">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="795" height="498"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f9d71" class="javax.swing.JLabel" binding="psgLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ПСЖ"/>
+        </properties>
+      </component>
+      <component id="b6f99" class="javax.swing.JLabel" binding="sleepLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сон"/>
+        </properties>
+      </component>
+      <component id="7727c" class="javax.swing.JLabel" binding="genderLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Пол"/>
+        </properties>
+      </component>
+      <component id="60159" class="javax.swing.JRadioButton" binding="male">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Муж"/>
+        </properties>
+      </component>
+      <component id="958ca" class="javax.swing.JRadioButton" binding="female">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Жен"/>
+        </properties>
+      </component>
+      <component id="dbc07" class="javax.swing.JLabel" binding="physLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Физ. упражнения"/>
+        </properties>
+      </component>
+      <component id="3d711" class="javax.swing.JLabel" binding="smokingLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Курение"/>
+        </properties>
+      </component>
+      <component id="32b64" class="javax.swing.JLabel" binding="alcoLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Алкоголь"/>
+        </properties>
+      </component>
+      <component id="f5b03" class="javax.swing.JLabel" binding="breakfastLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="53" height="49"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Завтрак"/>
+        </properties>
+      </component>
+      <component id="3a7a6" class="javax.swing.JLabel" binding="biteLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Перекусы"/>
+        </properties>
+      </component>
+      <component id="f6b52" class="javax.swing.JRadioButton" binding="physEveryday">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Каждый день"/>
+        </properties>
+      </component>
+      <component id="51223" class="javax.swing.JRadioButton" binding="physFewTimes">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3 раза в неделю"/>
+        </properties>
+      </component>
+      <component id="f674a" class="javax.swing.JRadioButton" binding="physRarely">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Редко"/>
+        </properties>
+      </component>
+      <component id="22dbf" class="javax.swing.JRadioButton" binding="breakfastEveryday">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="110" height="49"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Каждый день"/>
+        </properties>
+      </component>
+      <component id="fc4f1" class="javax.swing.JRadioButton" binding="breakfastSometimes">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="71" height="49"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Иногда"/>
+        </properties>
+      </component>
+      <component id="73b77" class="javax.swing.JRadioButton" binding="breakfastNever">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="121" height="49"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Редко/никогда"/>
+        </properties>
+      </component>
+      <component id="b35c1" class="javax.swing.JRadioButton" binding="biteAlways">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Постоянно"/>
+        </properties>
+      </component>
+      <component id="de05" class="javax.swing.JRadioButton" binding="biteSometimes">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Иногда"/>
+        </properties>
+      </component>
+      <component id="ee9d" class="javax.swing.JRadioButton" binding="biteNever">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Редко/никогда"/>
+        </properties>
+      </component>
+      <component id="c5fd2" class="javax.swing.JRadioButton" binding="smokingNever">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Никогда"/>
+        </properties>
+      </component>
+      <component id="c5fc1" class="javax.swing.JRadioButton" binding="smokingGiveUp">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Бросил(а)"/>
+        </properties>
+      </component>
+      <component id="2ff3f" class="javax.swing.JRadioButton" binding="smokingYes">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Курю"/>
+        </properties>
+      </component>
+      <component id="a9116" class="javax.swing.JRadioButton" binding="alcoOften">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Часто"/>
+        </properties>
+      </component>
+      <component id="a6258" class="javax.swing.JRadioButton" binding="alcoRarely">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Редко"/>
+        </properties>
+      </component>
+      <component id="2818f" class="javax.swing.JRadioButton" binding="alcoNo">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Не употребляю"/>
+        </properties>
+      </component>
+      <component id="17f42" class="javax.swing.JLabel" binding="heightLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Рост"/>
+        </properties>
+      </component>
+      <component id="3efa0" class="javax.swing.JLabel" binding="weightLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Вес"/>
+        </properties>
+      </component>
+      <component id="719b9" class="javax.swing.JButton" binding="submit">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Рассчитать"/>
+        </properties>
+      </component>
+      <component id="81594" class="javax.swing.JLabel" binding="ageLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Возраст"/>
+        </properties>
+      </component>
+      <component id="beb43" class="javax.swing.JTextField" binding="sleep">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="31b69" class="javax.swing.JTextField" binding="psg">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cc1de" class="javax.swing.JTextField" binding="height">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="342c4" class="javax.swing.JTextField" binding="weight">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5b5e1" class="javax.swing.JTextField" binding="age">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
